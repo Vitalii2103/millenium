@@ -1,0 +1,11 @@
+#c {
+    background: blue;
+    margin: auto;
+    width: auto;
+    height: 300px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+#e {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: yellow;
+    z-index: 10;
+    margin: auto;
+    transition: 3s all;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#e_wrapper {
+    position: relative;
+    width: 100%;
+    transition: 3s all;
+    align-items: start;
+}
+
+#e_wrapper:hover #e {
+    left: 100%;
+    transform: translate(-100%, 0);
+}
